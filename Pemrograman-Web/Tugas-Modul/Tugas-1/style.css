@@ -71,3 +71,7 @@ footer.copyright {
     padding: 10px 20px;
     font-size: 12px;
 }
+
+.large-text {
+    font-size: 50px;
+}
