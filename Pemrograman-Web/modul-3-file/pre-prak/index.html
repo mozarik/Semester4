@@ -1,0 +1,27 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>PRE PRAKTIKUM-ZEIN TUGAS 2 </title>
+</head>
+
+<body>
+    Masukan angka: <input type="text" name="test" id="nama"> <button onclick="prime()"> CEK </button>
+    <script>
+        function prime() {
+            var text
+            var x = document.getElementById("nama").value
+            if (x % 2 == 0) {
+                text = "Merupakan bilangan prima"
+            } else {
+                text = "Bukan bilangan prima"
+            }
+
+            document.getElementById("output").innerHTML = `${x} ${text}`
+        }
+    </script>
+    <p id="output"></p>
+</body>
+
+</html>
